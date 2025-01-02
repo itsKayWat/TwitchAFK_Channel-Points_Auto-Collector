@@ -1,0 +1,29 @@
+TwitchAFK/
+│
+├── twitch_points_manager/          # Chrome extension files
+│   ├── manifest.json
+│   ├── popup.html
+│   ├── popup.js
+│   ├── content.js
+│   ├── background.js
+│   └── images/
+│       ├── icon16.png
+│       ├── icon48.png
+│       └── icon128.png
+│
+├── src/                           # Python source files
+│   ├── __init__.py
+│   ├── manager.py                 # Main point manager class
+│   └── utils.py                   # Utility functions
+│
+├── tests/                         # Test files
+│   ├── __init__.py
+│   └── test_manager.py
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+├── README.html
+├── README.txt
+├── requirements.py
+└── requirements.txt
